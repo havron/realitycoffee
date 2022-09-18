@@ -2,6 +2,7 @@
   "name": "realitycoffee",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://havron.info/realitycoffee",
   "dependencies": {
     "@react-three/cannon": "^6.4.0",
     "@react-three/drei": "^9.31.1",
