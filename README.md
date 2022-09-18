@@ -1,6 +1,7 @@
 # ☕️ Reality Coffee Shop
 
 ![](./devnotes/noidea.png)
+![](./devnotes/realitycoffee.png)
 
 [More development ideas here](./devnotes)
 

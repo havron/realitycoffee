@@ -1,3 +1,5 @@
+![](./cute_mug.png)
+
 # possible frameworks
 Comparisons: https://immersiveweb.dev/
 - use react-three-fiber and pair it with react-xr for VR, controllers, hands, picking, etc - and use-cannon for physics if you need it. https://github.com/pmndrs/react-xr https://github.com/pmndrs/use-cannon
