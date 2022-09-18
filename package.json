@@ -2,7 +2,7 @@
   "name": "realitycoffee",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://havron.dev",
+  "homepage": "https://havron.dev/realitycoffee",
   "dependencies": {
     "@react-three/cannon": "^6.4.0",
     "@react-three/drei": "^9.31.1",
@@ -26,6 +26,8 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
