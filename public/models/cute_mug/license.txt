@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cute Mug - Free 3D model
+* source:	https://sketchfab.com/3d-models/cute-mug-free-3d-model-c329807e8b354e3883d8e6a1596563ae
+* author:	PolyCube (https://sketchfab.com/PolyCube2)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cute Mug - Free 3D model" (https://sketchfab.com/3d-models/cute-mug-free-3d-model-c329807e8b354e3883d8e6a1596563ae) by PolyCube (https://sketchfab.com/PolyCube2) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

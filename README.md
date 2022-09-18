@@ -1,18 +1,25 @@
-# realitycoffee
-Reality Coffee Shop
+# ☕️ Reality Coffee Shop
 
+![](./devnotes/noidea.png)
 
-# yarn
+[More development ideas here](./devnotes)
+
+# models and credits
+- ["Classic Red Coffee Mug"](https://skfb.ly/6Xtw6) by [@hungry_beagle](https://sketchfab.com/hungry_beagle) licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Some design may be inspired by [Vhite Rabbit's](https://constructarcade.com/developer/vhite-rabbit/) [Barista Express](https://constructarcade.com/game/barista-express/), although I will be using react three fiber instead of A-Frame.
+([All models](./src/models))
+
+# setup from scratch
 ```
-# basic react app
+# get the basic react app up
 $ brew install node
 $ npm install -g npm@latest
 $ npm install --global yarn
-$ yarn create react-app realitycoffee --template typescript
-$ cd realitycoffee
+$ yarn create react-app . --template typescript # skip this step if you are using this repo as-is
 $ yarn start
 
 # add React 3D engine (fiber), VR/MR integration, helpers for fiber, physics (cannon)
+yarn add three
 yarn add react-three-fiber
 yarn add @react-three/xr
 yarn add @react-three/drei
@@ -21,38 +28,12 @@ yarn add @react-three/cannon
 
 # local run
 ```
-
-(coffee) yarn run serve
+yarn run serve
 ```
 
-# possible frameworks
-Comparisons: https://immersiveweb.dev/
-- use react-three-fiber and pair it with react-xr for VR, controllers, hands, picking, etc - and use-cannon for physics if you need it. https://github.com/pmndrs/react-xr https://github.com/pmndrs/use-cannon
-- THREE.JS and Ecsy
-- https://github.com/pmndrs/react-three-fiber
-- https://aframe.io/
-- WebXR React
-
-# emulators
-[Release info](https://blog.mozvr.com/webxr-emulator-extension/): [Chrome extension](https://chrome.google.com/webstore/detail/webxr-api-emulator/mjddjgeghkdijejnciaefnkjmkafnnje)
-[webXR quest emulator](https://github.com/felixtrz/WebXRQuestEmulator)
-
-# allow headset access to local laptop devserver ports
-Either go to the laptop IP address + port on the same network, or use ADB: `adb reverse tcp:8080 tcp:8080`
-[Remote debugging](https://stackoverflow.com/questions/56403318/can-i-remotely-access-web-browser-tabs-in-my-oculus-quest-oculus-go-from-a-progr)
-
-## package.json scripting 
-
-```
-{
-...
-  "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject",
-  "reverse": "adb reverse tcp:8080 tcp:8080"
-  },
-...
-}
-```
+# to-do list
+* learn physics engine and three.js fundamentals
+* add textures (async load with react suspense)
+* load coffee mug model into scene
+* learn xr permission and controller state hooks. Interactivity with fly and orbit controls.
+* menu planning (seasonal)
