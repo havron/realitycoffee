@@ -49,7 +49,7 @@ const FbxCoffeeMug = () => {
 function App() {
   return (
     <>
-    <div><h1>☕️ Reality Coffee</h1></div>
+    <div><h1>☕️ Reality Coffee</h1><p>Mug by <a href="https://sketchfab.com/3d-models/cute-mug-free-3d-model-c329807e8b354e3883d8e6a1596563ae">PolyCube</a></p></div>
     <div className="App" style={{
       display: 'flex',
       justifyContent: 'center',
