@@ -2,7 +2,7 @@
   "name": "realitycoffee",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://havron.info/realitycoffee",
+  "homepage": "https://havron.dev",
   "dependencies": {
     "@react-three/cannon": "^6.4.0",
     "@react-three/drei": "^9.31.1",
@@ -15,6 +15,7 @@
     "@types/react": "^18.0.20",
     "@types/react-dom": "^18.0.6",
     "@types/three": "^0.144.0",
+    "gh-pages": "^4.0.0",
     "gltfjsx": "^5.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
